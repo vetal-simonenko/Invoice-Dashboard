@@ -1,5 +1,4 @@
 'use client';
-
 import { CustomerField } from '@/app/lib/definitions';
 import Link from 'next/link';
 import {
@@ -61,7 +60,6 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
 							))}
 					</div>
 				</div>
-
 				<div className='mb-4'>
 					<label
 						htmlFor='amount'
@@ -76,6 +74,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
 								name='amount'
 								type='number'
 								step='0.01'
+								min='0'
 								placeholder='Enter USD amount'
 								className='peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-500'
 								aria-describedby='amount-error'
@@ -99,7 +98,6 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
 							))}
 					</div>
 				</div>
-
 				<fieldset>
 					<legend className='mb-2 block text-sm font-medium'>
 						Set the invoice status
