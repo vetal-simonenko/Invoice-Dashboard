@@ -1,1 +1,1 @@
-## Next.js Dashboard pet project
+## React/Next.js Dashboard pet project
