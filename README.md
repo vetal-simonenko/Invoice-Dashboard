@@ -1,4 +1,4 @@
-## React/Next.js Dashboard pet project
+# React/Next.js Dashboard pet project
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`npx create-next-app@latest`]
 
