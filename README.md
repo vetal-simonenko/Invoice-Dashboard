@@ -1,8 +1,8 @@
 # React/Next.js Dashboard pet project
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`npx create-next-app@latest`]
-In this project, I explored the new version of Next.js 14, App Router, Server Components and Server Actions.
-I used PostgreSQL as the database.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`npx create-next-app@latest`] <br/>
+In this project I explored the new features of Next.js 14 - App Router, Server Components and Server Actions. <br/>
+I used PostgreSQL as the database. <br/>
 The project was built and deployed on Verсel hosting.
 
 ## Getting Started
